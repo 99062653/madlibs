@@ -1,0 +1,69 @@
+body {
+    background-color: #616161;
+}
+
+div.pagina {
+    margin: 0 auto;
+    width: 750px;
+    height: 750px;
+}
+
+.links {
+    margin-left: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header {
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #AB2513;
+    padding-left: 15px;
+    padding: 7px;
+}
+
+footer {
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #535245;
+    text-align: center;
+    height: 25px;
+    padding-top: 5px;
+}
+
+div.inhoud {
+    min-height: 50px;
+    padding-left: 5px;
+    background-color: #ffffff;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+input {
+    float: right;
+    margin-right: 50px;
+}
+
+form {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p.laatste {
+    margin-bottom: 0;
+}
+
+p.error {
+    color: #ff1919;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+p.tekst {
+    margin-bottom: 0;
+}
