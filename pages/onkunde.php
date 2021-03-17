@@ -10,7 +10,7 @@
 <body>
     <div class="pagina">
         <img src="../img/logo.png" alt="logo">
-        <header><a class="links" href="../index.html">Er heerst paniek...</a> <a class="links" href="./pages/onkunde.html">Onkunde</a></header>
+        <header><a class="links" href="../index.php">Er heerst paniek...</a> <a class="links" href="./pages/onkunde.php">Onkunde</a></header>
         <div class="inhoud">
             <h1>Onkunde</h1>
             <form action="../code/onkunde.php" method="post">

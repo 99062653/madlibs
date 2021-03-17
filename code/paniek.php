@@ -23,7 +23,7 @@ $inputs = array(
 <body>
     <div class="pagina">
         <img src="../img/logo.png" alt="logo">
-        <header><a class="links" href="../index.html">Er heerst paniek...</a> <a class="links" href="../pages/onkunde.html">Onkunde</a></header>
+        <header><a class="links" href="../index.php">Er heerst paniek...</a> <a class="links" href="../pages/onkunde.php">Onkunde</a></header>
         <div class="inhoud">
             <h1>Er heerst paniek...</h1>
                     <p>Er heerst paniek in het koningrijk <?php echo $land ?>, Koning <?php echo $docent ?> is ten einde raad en als koning <?php echo $docent ?> ten einde raad is, dan roept hij zijn ten-einde-raadsheer <?php echo $naam ?>.</p>
