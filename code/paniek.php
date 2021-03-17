@@ -1,13 +1,16 @@
 <?php 
+
+session_start();
+
 $inputs = array(
-    $dier = $_POST["huisdier"],
-    $naam = $_POST["persoon"],
-    $land = $_POST["land"],
-    $activiteit = $_POST["activiteit"],
-    $speelgoed = $_POST["speelgoed"],
-    $docent = $_POST["docent"],
-    $geld = $_POST["geld"],
-    $bezigheid = $_POST["bezigheid"]
+    $dier = $_SESSION["huisdier"],
+    $naam = $_SESSION["persoon"],
+    $land = $_SESSION["land"],
+    $activiteit = $_SESSION["activiteit"],
+    $speelgoed = $_SESSION["speelgoed"],
+    $docent = $_SESSION["docent"],
+    $geld = $_SESSION["geld"],
+    $bezigheid = $_SESSION["bezigheid"]
 );
 ?>
 

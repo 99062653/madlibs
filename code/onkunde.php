@@ -1,12 +1,15 @@
 <?php
+
+session_start();
+
 $inputs = array(
-    $doel = $_POST["doel"],
-    $persoon = $_POST["mens"],
-    $getal = $_POST["getal"],
-    $item = $_POST["item"],
-    $goed = $_POST["goed"],
-    $slecht = $_POST["slecht"],
-    $overkomen = $_POST["overkomen"]
+    $doel = $_SESSION["doel"],
+    $persoon = $_SESSION["mens"],
+    $getal = $_SESSION["getal"],
+    $item = $_SESSION["item"],
+    $goed = $_SESSION["goed"],
+    $slecht = $_SESSION["slecht"],
+    $overkomen = $_SESSION["overkomen"]
 );
 ?>
 
