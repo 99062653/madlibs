@@ -69,13 +69,13 @@ session_start();
                 }
             }
                 ?>
-            Wat zou je graag willen kunnen? <input type="text" name="doel"><?php echo $doelErr ?><br><br>
-            Met welk persoon kun je goed opschieten? <input type="text" name="mens"><?php echo $mensErr ?><br><br>
-            Wat is je favoriete getal? <input type="text" name="getal"><?php echo $getalErr ?><br><br>
-            Wat heb je altijd als je op vakantie gaat? <input type="text" name="item"><?php echo $itemErr ?><br><br>
-            Wat is je beste persoonlijke eigenschap? <input type="text" name="goed"><?php echo $goedErr ?><br><br>
-            Wat is je slechtste persoonlijke eigenschap? <input type="text" name="slecht"><?php echo $slechtErr ?><br><br>
-            Wat is het ergst dat jou kan overkomen? <input type="text" name="overkomen"><?php echo $overkomenErr ?><br><br>
+            Wat zou je graag willen kunnen? <input type="text" value="<?php echo $_SESSION["doel"] ?>" name="doel"><?php echo $doelErr ?><br><br>
+            Met welk persoon kun je goed opschieten? <input type="text" value="<?php echo $_SESSION["mens"] ?>" name="mens"><?php echo $mensErr ?><br><br>
+            Wat is je favoriete getal? <input type="text" value="<?php echo $_SESSION["getal"] ?>" name="getal"><?php echo $getalErr ?><br><br>
+            Wat heb je altijd als je op vakantie gaat? <input type="text" value="<?php echo $_SESSION["item"] ?>" name="item"><?php echo $itemErr ?><br><br>
+            Wat is je beste persoonlijke eigenschap? <input type="text" value="<?php echo $_SESSION["goed"] ?>" name="goed"><?php echo $goedErr ?><br><br>
+            Wat is je slechtste persoonlijke eigenschap? <input type="text" value="<?php echo $_SESSION["slecht"] ?>" name="slecht"><?php echo $slechtErr ?><br><br>
+            Wat is het ergst dat jou kan overkomen? <input type="text" value="<?php echo $_SESSION["overkomen"] ?>" name="overkomen"><?php echo $overkomenErr ?><br><br>
             <input type="submit"><br><br>
             </form>
         </div>
